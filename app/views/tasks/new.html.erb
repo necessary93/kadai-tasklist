@@ -3,8 +3,8 @@
 <%= form_for(@task) do |f| %>
   <%= f.label :content, '' %>
   <%= f.text_field :content %>
-  <%= f.label :content, 'status' %>
-  <%= f.text_field :Status %>
+  <%= f.label :status, 'status' %>
+  <%= f.text_field :status %>
 
   <%= f.submit '新規作成' %>
 <% end %>
